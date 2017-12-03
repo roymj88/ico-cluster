@@ -1,0 +1,12 @@
+.navbar{
+    background: #512DA8;
+}
+
+.navbar.fixed-top{
+    top: 25px !important;
+}
+
+.navbar a{
+    color: #FFF;
+    font-weight: bold;
+}

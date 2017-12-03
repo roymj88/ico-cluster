@@ -1,0 +1,38 @@
+.card {
+	background: #fff;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+.card-container{
+	margin-bottom: 20px;
+}
+
+.card-border{
+	border: 1px solid #ccc;
+	border-radius: 7px;
+	background: #FFF;
+}
+
+.card-block {
+    padding: 1.25rem;
+}
+
+p{
+	margin-bottom: 1rem;
+}
+.card .img {
+	width: 100%;
+}
+/* }
+[class*="row"] {
+	margin-bottom: 1em;
+  justify-content: center;
+}
+
+[class*="col-"] {
+	background: #efefef;
+	border: 1px solid #ddd;
+	padding-top: .75rem;
+	padding-bottom: .75rem;
+	width: 100%;
+} */
+

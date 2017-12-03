@@ -1,0 +1,25 @@
+.public-nav-bar{
+    background: none;
+    background-color: #673AB7;
+    height: 25px;
+    padding-top: 6px;
+    color: #fff;
+    font-size:10px;
+}
+
+.social-media-links{
+    right:20px;
+    position: absolute;
+}
+
+.anchor-social{
+    color: #fff;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+.anchor-social:hover{
+    color: #fff;
+    margin-top:-2px;
+    padding-top:-2px;
+}
