@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ListingService } from "../../../common/services/listing/listing.service";
 
 @Component({
   selector: 'app-index',
@@ -7,9 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IndexComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private _listingService: ListingService
+  ) { }
 
   ngOnInit() {
+    this.getListings();
+  }
+
+  getListings = () => {
+    this._listingService.getList()
+      .subscribe(result => {
+        console.log(result);
+      }, error => {
+        console.log(error);
+      });
   }
 
 }

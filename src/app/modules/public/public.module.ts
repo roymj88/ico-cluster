@@ -6,6 +6,7 @@ import { IndexComponent } from './index/index.component';
 import { PublicHeaderComponent } from "../../common/public/public-header/public-header.component";
 import { PublicFooterComponent } from "../../common/public/public-footer/public-footer.component";
 import { PublicNavBarComponent } from "../../common/public/public-nav-bar/public-nav-bar.component";
+import { ListingService } from "../../common/services/listing/listing.service";
 
 
 @NgModule({
@@ -19,6 +20,9 @@ import { PublicNavBarComponent } from "../../common/public/public-nav-bar/public
     PublicHeaderComponent,
     PublicFooterComponent,
     PublicNavBarComponent
+  ],
+  providers: [
+    ListingService
   ]
 })
 export class PublicModule { }
